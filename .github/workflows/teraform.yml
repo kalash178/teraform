@@ -25,8 +25,8 @@ jobs:
       - name: Apply
         run: terraform apply -auto-approve
 
-      - name: Upload hello.txt
+      - name: Upload jane.txt
         uses: actions/upload-artifact@v4
         with:
-          name: hello-file
-          path: hello.txt
+          name: jane-file
+          path: jane.txt
