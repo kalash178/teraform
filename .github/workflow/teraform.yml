@@ -17,8 +17,8 @@ run: terraform init
 run: terraform plan
 - name: Apply
 run: terraform apply -auto-approve
-- name: Upload hello.txt
+- name: Upload yolo.txt
 uses: actions/upload-artifact@v4
 with:
-name: hello-file
-path: hello.txt
+name: yolo-file
+path: yolo.txt

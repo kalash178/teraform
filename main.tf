@@ -1,5 +1,5 @@
 provider "local" {}
 resource "local_file" "demo" {
-filename = "hello.txt"
+filename = "yolo.txt"
 content = "Hello from Terraform via GitHub Actions!"
 }
