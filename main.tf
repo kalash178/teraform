@@ -1,5 +1,7 @@
 provider "local" {}
 resource "local_file" "demo" {
-filename = "yolo.txt"
-content = "Hello from Terraform via GitHub Actions!"
+filename = "jane.txt"
+content = "Emma Woodhouse, handsome, clever, and rich, with a comfortable 
+home and happy disposition, seemed to unite some of the best blessings of existence; 
+and had lived nearly twenty-one years in the world with very little to distress or vex her"."
 }
